@@ -65,7 +65,7 @@ class DyReLUB(DyReLU):
     '''
     更适合对图像分类等任务
     reduction=8 是性能和速度的权衡
-    conv_type='2d' 类似SE模块  '1d'适用语音转文字任务
+    conv_type='2d' 类似SE模块  '1d'适用语音转文字任务  https://github.com/Islanna/DynamicReLU/issues/2
     '''
     def __init__(self, channels, reduction=8, k=2, conv_type='2d'):
         super(DyReLUB, self).__init__(channels, reduction, k, conv_type)
