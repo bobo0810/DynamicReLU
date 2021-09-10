@@ -2,7 +2,7 @@
 #### 该仓库收录于[PytorchNetHub](https://github.com/bobo0810/PytorchNetHub)
 
 # 说明
-- ECCV2020收录
+- ECCV2020收录 [官方库](https://github.com/Islanna/DynamicReLU)
 - 仅加注释,便于理解
 
 # 环境
